@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 					},
 				]}
 			/>
-			<div className="flex flex-1 flex-col items-center justify-center pt-12">
+			<div className="flex flex-1 flex-col min-h-screen items-center justify-center">
 				<div>
 					<Image
 						alt="ProfileImage"
