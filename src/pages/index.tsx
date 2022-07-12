@@ -27,7 +27,7 @@ const Home: NextPage = () => {
 					},
 				]}
 			/>
-			<div className="flex flex-col items-center justify-center pt-12">
+			<div className="flex flex-1 flex-col items-center justify-center pt-12">
 				<div>
 					<Image
 						alt="ProfileImage"
@@ -67,9 +67,8 @@ const Home: NextPage = () => {
 						<BsInstagram className="text-6xl" />
 					</a>
 				</div>
-
-				<Footer />
 			</div>
+			<Footer />
 		</div>
 	);
 };
