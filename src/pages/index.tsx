@@ -4,7 +4,6 @@ import Image from "next/image";
 import ProfileImage from "src/public/IMG_5794.jpg";
 import Footer from "src/components/Footer";
 import { BsGithub, BsTwitter, BsInstagram } from "react-icons/bs";
-import Link from "next/link";
 import HeaderResponsive from "src/components/Header";
 
 const Home: NextPage = () => {
