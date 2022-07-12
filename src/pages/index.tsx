@@ -43,21 +43,29 @@ const Home: NextPage = () => {
 				</div>
 
 				<div className="pt-12 flex space-x-10">
-					<Link href="https://github.com/Naoki0509">
-						<a>
-							<BsGithub className="text-6xl" />
-						</a>
-					</Link>
-					<Link href="https://twitter.com/nakki0509">
-						<a>
-							<BsTwitter className="text-6xl" />
-						</a>
-					</Link>
-					<Link href="https://www.instagram.com/naoking0509">
-						<a>
-							<BsInstagram className="text-6xl" />
-						</a>
-					</Link>
+					<a
+						target="_blank"
+						rel="noreferrer"
+						href="https://github.com/Naoki0509"
+					>
+						<BsGithub className="text-6xl" />
+					</a>
+
+					<a
+						href="https://twitter.com/nakki0509"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<BsTwitter className="text-6xl" />
+					</a>
+
+					<a
+						href="https://www.instagram.com/naoking0509"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<BsInstagram className="text-6xl" />
+					</a>
 				</div>
 
 				<Footer />
