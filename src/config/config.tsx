@@ -6,7 +6,7 @@ import {
 	SiJavascript,
 } from "react-icons/si";
 
-export const SocialMedia = {
+export const SocialMediaProps = {
 	github: {
 		url: "https://github.com/Naoki0509",
 		icon: <BsGithub />,
@@ -21,7 +21,7 @@ export const SocialMedia = {
 	},
 };
 
-export const DevropLanguage = {
+export const DevropLanguageProps = {
 	ts: {
 		name: "TypeScript",
 		url: "https://www.typescriptlang.org/",
